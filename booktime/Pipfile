@@ -8,6 +8,14 @@ verify_ssl = true
 [packages]
 django = "*"
 pillow = "*"
+django-extensions = "*"
+pydotplus = "*"
+ipython = "*"
+werkzeug = "*"
+django-debug-toolbar = "*"
+django-tables2 = "*"
+django-filter = "*"
+django-widget-tweaks = "*"
 
 [requires]
 python_version = "3.7"

@@ -49,6 +49,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django_extensions',
+    'django_tables2',
+    'widget_tweaks',
     'main.apps.MainConfig',
 ]
 
@@ -139,3 +142,5 @@ MEDIA_URL = '/media/'
 AUTH_USER_MODEL = "main.User"
 
 LOGIN_REDIRECT_URL = '/'
+
+DJANGO_TABLES2_TEMPLATE = 'django_tables2/bootstrap.html'
